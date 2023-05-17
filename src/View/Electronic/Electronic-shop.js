@@ -1,8 +1,13 @@
 import "./Electronic-shop.css"
 function Electronic(){
     return(<>
-    <p> This is Electronic </p>
-           </>);
+      
+      <h1> New Heading</h1>
+      <p> This is Electronic </p>
+  
+  
+   </>);
 }
 
-export default Electronic();
+export default Electronic;
+    
