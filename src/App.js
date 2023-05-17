@@ -8,11 +8,8 @@ import Electronic from './View/Electronic/Electronic-shop';
 function App() {
   return (
    <>
-
-   
-   <Electronic/>
-   {/* <Jewellery/> */}
-
+   {/* <Electronic/> */}
+   <Jewellery/> 
    </>
   );
 }

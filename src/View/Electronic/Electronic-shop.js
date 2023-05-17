@@ -2,10 +2,11 @@ import "./Electronic-shop.css"
 function Electronic(){
     return(<>
       
-      <h1> New Heading</h1>
-      <p> This is Electronic </p>
-  
-  
+      <div className="main-container">
+           <p className="main-heading"> Eelectronic Shop</p>
+           <img src="./image/Ele-img/Eelectronic.jpg"  className="img"/>
+
+      </div>
    </>);
 }
 
