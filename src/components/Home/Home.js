@@ -3,23 +3,33 @@ import Navbar from '../Navbar/Navbar'
 import "./Home.css"
 import Footer from '../Footer/Footer';
 
+//image import links
+import img1 from './imag1.jpg'
+import img2 from './img2.jpg'
+import img3 from './img3.jpg'
+import card1 from './card-img.webp'
+import card2 from './card-img2.png'
+import card3 from './card-img3.webp'
 //bootstrap files
+import ThemeProvider from 'react-bootstrap/ThemeProvider'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle';
 function Home() {
   return (
    <>
+  
+
    <Navbar/>
    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="./image\homepage-img\imag1.jpg" class="d-block w-100" alt="..."/>
+      <img src={img1} class="d-block w-100" alt="..."/>
     </div>
     <div class="carousel-item">
-      <img src="./image\homepage-img\img2.jpg" class="d-block w-100" alt="..."/>
+      <img src={img2} class="d-block w-100" alt="..."/>
     </div>
     <div class="carousel-item">
-      <img src="./image\homepage-img\img3.jpg" class="d-block w-100" alt="..."/>
+      <img src={img3} class="d-block w-100" alt="..."/>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -45,7 +55,7 @@ function Home() {
     <div class="row">
     <div class="col-lg-4 mb-4">
     <div class="card">
-      <img src="./image\homepage-img\card-img.webp" alt="" class="card-img-top"/>
+      <img src={card1} alt="" class="card-img-top"/>
       <div class="card-body">
         <h5 class="card-title">Our Bussiness</h5>
         <p class="card-text">basically normal Bussiness contain some investment  and that contain matarial coast, advertisment cost,Rent for shop,and some taxes and teh main concept is advertisment and our web site work only on that </p>
@@ -56,7 +66,7 @@ function Home() {
     </div>
   <div class="col-lg-4 mb-4">
   <div class="card">
-      <img src="./image\homepage-img\card-img2.png" alt="" class="card-img-top"/>
+      <img src={card2} alt="" class="card-img-top"/>
       <div class="card-body">
         <h5 class="card-title">Benifite of online Bussiness</h5>
         <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut eum similique repellat a laborum, rerum voluptates ipsam eos quo tempore iusto dolore modi dolorum in pariatur. Incidunt repellendus praesentium quae!</p>
@@ -67,7 +77,7 @@ function Home() {
     </div>
     <div class="col-lg-4 mb-4">
     <div class="card">
-      <img src="./image\homepage-img\card-img3.webp" alt="" class="card-img-top"/>
+      <img src={card3} alt="" class="card-img-top"/>
       <div class="card-body">
         <h5 class="card-title">Our Happy Coustmer</h5>
         <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut eum similique repellat a laborum, rerum voluptates ipsam eos quo tempore iusto dolore modi dolorum in pariatur. Incidunt repellendus praesentium quae!</p>
@@ -80,6 +90,7 @@ function Home() {
 </div>
 </section>
 <Footer/>
+
 
    </>
   )
