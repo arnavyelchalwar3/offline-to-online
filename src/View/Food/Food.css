@@ -1,0 +1,122 @@
+
+.heading{
+    text-align: center;
+
+}
+.poster-1{
+    margin-right: 20px;
+    margin-top: 1000px;
+    align-items: center;
+}
+.big-container{
+    height: 830px;
+    width: 90%;
+    margin-top: 100px;
+  background-color:rgb(125, 206, 230);
+    margin: 20px auto;
+    border-radius: 40px;
+}
+.c-name{
+   
+    text-align: center;
+    color: aliceblue;
+    padding-top: 20px;
+}
+.dis-sty{
+    color: aliceblue;
+    text-align: center;
+}
+.png-sty{
+    height: 150px;
+
+    margin-left: 10px;
+    border-radius: 7px;
+}
+.part-cont{
+    display: flex;
+    
+}
+.part-2{
+    color: rgb(2, 17, 31);
+    width:  800px;
+   
+    margin-left: 200px;
+    margin-top: 25px;
+    font-size: 25px;
+  
+}
+.address-cont{
+    text-align: center;
+    margin-top: 30px;
+}
+.part-3{
+    height: 100px;
+}
+.png-sty-1{
+    height: 150px;
+     margin-left: 180px;
+    border-radius: 7px;
+    justify-content: space-around;
+    
+}
+.offer{
+    color: black;
+    font-size: 20px;
+    margin-right: 30px;
+    
+}
+.pizza{
+    display: block;
+    font-size: 30px; 
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    width: 260px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.circle {
+    width: 120px; /* Adjust the size as needed */
+    height: 120px; /* Adjust the size as needed */
+    border-radius: 50%;
+    background-color: #FDD017; /* Adjust the circle background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-family: Arial, sans-serif;
+    font-size: 24px; /* Adjust the text size as needed */
+    color: white; /* Adjust the text color */
+    margin-left: 480px;
+  }
+  
+  .text {
+    z-index: 1;
+    color: black;
+
+  }
+  .bike{
+    height: 200px;
+    width: 200px;
+    margin-left: 40px;
+  }
+  
+  .row-4{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 30px;
+   
+  }
+  .delivery{
+    height: 200px;
+    width: 200px;
+  }
+  .row-5{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 30px;
+   
+  }

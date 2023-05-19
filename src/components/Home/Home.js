@@ -14,6 +14,7 @@ import card3 from './card-img3.webp'
 import ThemeProvider from 'react-bootstrap/ThemeProvider'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle';
+
 function Home() {
   return (
    <>
