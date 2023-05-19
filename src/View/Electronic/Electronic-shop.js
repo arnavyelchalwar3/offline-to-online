@@ -1,3 +1,4 @@
+
 import "./Electronic-shop.css"
 function Electronic(){
     return(<>
@@ -21,8 +22,6 @@ function Electronic(){
                <img src="./image/Ele-img/whatsapp.png"  className="logo"/>
                 <p className="mobile-no"> 9172319749</p>
             </div>
-            
-            
       </div>
    </>);
 }
