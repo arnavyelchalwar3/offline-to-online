@@ -34,14 +34,16 @@ function Grocery() {
      <div className='parent-container'>
     <div className='text-2'>
     <span>
-        Call to find out more <br/>
-        +000 873 2456 📞
+    Phone Number: 9356164401📞<br/>
+    Phone Number: 7666455326📞<br/>
+    Email: tannukurekar3@gmail.com📩<br/>
+        
    </span>
    </div>
 
    <div>
    <span className='text-3'>
-    Address<br/>
+   ADDRESS: Vasudev Nagar,Nagpur
     
    </span>
    </div>
