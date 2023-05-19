@@ -1,14 +1,15 @@
 import './App.css';
 import From from './components/Form/Form';
 import Navbar from './components/Navbar/Navbar';
-import  Home from './components/Home/Home';
-import Jewallary from './View/Jewallary/Jewellery';
-import Beauty from './View/Beauty/Beauty';
+
+import Home from './components/Home/Home';
+import Jewellery from './View/Jewallary/Jewellery'
+import Electronic from './View/Electronic/Electronic-shop';
 function App() {
   return (
    <>
-   <Beauty/>
-   
+   <Jewellery/> 
+
    </>
   );
 }

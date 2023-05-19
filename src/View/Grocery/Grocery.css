@@ -1,0 +1,78 @@
+.Grocery-Card{
+    width: 900px;
+    height: 800px;
+    margin: 10px auto;
+    border: 5px solid bisque;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 0 30px rgb(68, 93, 78);
+    background-color:rgb(33, 56, 33);
+    text-align: center;
+   
+
+}
+.Grocery-Card:hover{
+    box-shadow: 2px 2px 4px 3px rgb(86, 116, 89);
+}
+
+.app-header{
+    color: white;
+}
+.app-header1{
+    color: yellow;
+}
+.img{
+    height: 300px;
+    padding-top: 10px;
+    margin-left:60px;
+    
+}
+.rmage{
+    height: 120px;  
+}
+
+.cont1{
+    margin-left: 80px;
+    display: flex;
+}
+.container{
+  
+    margin-top: 20px;
+}
+.border{
+    height: 950px;
+    width: 200px;
+  
+}
+.text-2{
+    color: white;
+    font-size: larger;
+    text-align: right;
+    margin-top: 100px;
+    margin-right: 15px;
+}
+
+
+.btn-roll{
+    background-color: rgb(115, 167, 106);
+    color: azure;
+    display: block;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 5px 10px;
+    border: 2px solid black;
+   }
+   .btn-roll:hover{
+    box-shadow: 1px 1px 3px 1px gray;
+   }
+
+   .text-3{
+    color: white;
+    font-size: larger;
+    text-align: left;
+  
+   }
+   .parent-container{
+      display: flex;
+     width: 50%;
+   }

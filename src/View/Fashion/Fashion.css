@@ -1,0 +1,47 @@
+.banner-container{
+    height: 700px;
+    width: 50%;
+    padding: 10px;
+   background:linear-gradient( white,#e66465) ;
+    box-shadow: gray 0 0 10px ;
+    border-radius: 5px;
+  border: groove;
+    margin: 10px auto;
+    
+}
+.pic{
+    height: 300px;
+    margin-right: 10px;
+}
+.shop-name{
+    color: black;
+}
+
+
+.img-parent{
+    display: flex;
+    justify-content: space-around;
+}
+.text{
+   text-align: center;
+    font-size: larger;
+    
+}
+.text-2{
+    font-size: larger;
+    text-align: right;
+    margin-top: 220px;
+    margin-right: 15px;
+}
+.pic-2{
+    height: 150px;
+    margin-top: 170px;
+}
+.parent-2{
+    display: flex;
+    justify-content: space-around;
+}
+.pic-3{
+    height: 135px;
+    margin: 40px;
+}
