@@ -1,13 +1,18 @@
+
 .poster-container{
-    height: 600px;
-    width: 70%;
-  background: url("./../../../public/image/jewellary-img/png3.png");
+    height: auto;
+    width: 80%;
+  background: url("./png3.png") no-repeat;
+  background-size: cover;
+  background-position: center;
     margin: 20px auto;
     border-radius: 40px;
+    backdrop-filter: gold;
 }
 .shop-name{
+
     text-align: center;
-    color: aliceblue;
+    color: goldenrod;
     padding-top: 20px;
     
 }
@@ -17,22 +22,51 @@
 }
 .png-sty{
     height: 150px;
+    margin: 0px auto;
 }
 .part-cont{
     display: flex;
+    justify-content:space-between;
+    width: 60%;
+    margin: 0px auto;
     
 }
 .part-2
 {
-    color: aliceblue;
+    color: white;
+    text-shadow: 2px 2px 20px white;
     font-size: 25px;
     font-weight: bolder;
+    text-decoration-style: wavy;
 
 }
-.address-cont{
-    text-align: center;
-    color: aliceblue;
+.address-bar{
+  width: 50%;
+  font-size: 20px;
+  margin: 0px auto;
+color: gold;
+text-align: center;
 }
-.part-3{
-    height: 100px;
+.gold-cont{
+    width: 50%;
+    margin: 0px auto;
+}
+.gold{
+    display: block;
+    height: 200px;
+    margin: 0px auto;
+}
+
+.girl-img{
+    height: 200px;
+}
+.contact-cont{
+    color: aliceblue;
+    width: 50%;
+    margin: 0px auto;
+    text-align: center;
+}
+.contact{
+  font-size: 20px;
+  color: goldenrod;
 }
