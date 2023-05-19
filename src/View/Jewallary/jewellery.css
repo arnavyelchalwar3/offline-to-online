@@ -1,0 +1,38 @@
+.poster-container{
+    height: 600px;
+    width: 70%;
+  background: url("./../../../public/image/jewellary-img/png3.png");
+    margin: 20px auto;
+    border-radius: 40px;
+}
+.shop-name{
+    text-align: center;
+    color: aliceblue;
+    padding-top: 20px;
+    
+}
+.dis-sty{
+    color: aliceblue;
+    text-align: center;
+}
+.png-sty{
+    height: 150px;
+}
+.part-cont{
+    display: flex;
+    
+}
+.part-2
+{
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: bolder;
+
+}
+.address-cont{
+    text-align: center;
+    color: aliceblue;
+}
+.part-3{
+    height: 100px;
+}
