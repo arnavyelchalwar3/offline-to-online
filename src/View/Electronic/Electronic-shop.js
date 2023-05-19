@@ -1,7 +1,10 @@
-
+import Footer from "../../components/Footer/Footer";
+import Navbar from "../../components/Navbar/Navbar";
 import "./Electronic-shop.css"
 function Electronic(){
     return(<>
+    <Navbar/>
+    <div className="div-main">
       <div className="main-container">
            <p className="main-heading"> Eelectronic Shop</p>  <br/>          
            
@@ -22,7 +25,9 @@ function Electronic(){
                <img src="./image/Ele-img/whatsapp.png"  className="logo"/>
                 <p className="mobile-no"> 9172319749</p>
             </div>
+        </div>
       </div>
+      <Footer/>
    </>);
 }
 
