@@ -1,16 +1,19 @@
-.main-container{
-    margin-top: 20px;
-    margin-left: 300px;
-    
+.div-main{
+    position: relative;
+    background-color:rgb(248, 238, 100);
+    margin: 10px;
 }
-
+.main-container{
+    margin-top: 5px;
+    
+    margin-left: 350px;
+}
 .img{
     border: solid rgb(216, 191, 219);
     height: 600px;
     width: 600px;
     border-radius: 2px;
 }
-
 .main-heading{
     /* padding-top: 100px;
     position: absolute; */
@@ -51,12 +54,12 @@
 }
 
 .Address-box{
-
+    
     display: flex;
     font-size: 14px;
     justify-content: center;
     margin-left: 10px;
-    bottom:-5px;
+    bottom:15px;
     position:absolute;
     color: rgb(234, 248, 245);
     font-weight: bold;
@@ -70,7 +73,7 @@
         padding: 1px;
         position: absolute;
         font-size: 25px;
-        bottom:-80px;
+        bottom:-70px;
         font-weight: bold;
         color: rgb(248, 242, 247);
         text-shadow: 0 0 10px rgb(8, 227, 183), 0 0 1px rgb(40, 242, 118);
@@ -83,7 +86,7 @@
         margin-left: 460px;
         margin-bottom: 270px;
         font-size: 12px;
-        bottom: 7px;
+        bottom: 8px;
         position:absolute;
         color: rgb(234, 248, 245);
         font-weight: bold;
@@ -95,7 +98,7 @@
         margin-left: 400px;
         /* margin-bottom: 50px; */
         font-size: 12px;
-        bottom: -20px;
+        bottom: 0px;
         position:absolute;
         display: flex;
         
