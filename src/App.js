@@ -9,7 +9,7 @@ import LoginPage from './View/Login Page/Login-page';
 function App() {
   return (
     <>
-      <Jewellery/>
+      <Home/>
     </>
   );
 }
