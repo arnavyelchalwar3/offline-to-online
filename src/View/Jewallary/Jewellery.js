@@ -24,14 +24,14 @@ function Jewellery(props) {
      </div>
    </div>
    <div className='address-bar'>
-   <span > talmal layout plot 53 <br/> butibori nagpur 441108 </span>
+   <span >{props.address1 }<br/>{props.address2}</span>
    </div>
    <div className='gold-cont'>
    <img src={gold} className='gold'/>
    </div>
    <div className='contact-cont'>
-   <span className='contact'>Mobile Number</span><i class="bi bi-telephone"></i>:-8975434272<br/>
-   <span className='contact'>Alt Mobile Number</span>  <i class="bi bi-telephone"></i>:-9823000990<br/>
+   <span className='contact'>Mobile Number</span><i class="bi bi-telephone"></i>:-{props.mobile}<br/>
+   <span className='contact'>Alt Mobile Number</span>  <i class="bi bi-telephone"></i>:-{props.altmobile}<br/>
    <span className='contact'>Mail</span>  <i class="bi bi-envelope"></i>:-{props.email}<br/>
    </div>
   </div>

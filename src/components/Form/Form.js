@@ -150,7 +150,7 @@ function Form() {
   <button type="submit" class="btn btn-dark submit" onclick="uesrinput(),pageready()">Submit</button>
 </div>
 </form>
-<Form shopname={shopname} owner={owner} email={email} />
+<Form shopname={shopname} owner={owner} email={email} address1={address1} address2={address2} city={city} mobile={mobile} altmobile={altmobile}  />
 </>
 
   )

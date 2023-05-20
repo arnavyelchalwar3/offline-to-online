@@ -10,7 +10,7 @@ import Home from './components/Home/Home';
 import LoginPage from './components/Login Page/Login-page';
 import Suggetion from './components/Suggetion/Suggetion';
 import Aboutus from './components/About us/Aboutus';
-import Contact from './View/Contact us/Contact';
+import Contact from './components/Contact us/Contact';
 function App() {
   return (
     <>
