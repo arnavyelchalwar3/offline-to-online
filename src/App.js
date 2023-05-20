@@ -10,8 +10,7 @@ import Jewellery from './view/Jewallary/Jewellery';
 function App() {
   return (
     <>
-    
-    </>
+        </>
   );
 }
 
