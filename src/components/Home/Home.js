@@ -7,7 +7,7 @@ import Cards from './Cards';
 import Accordions from './Accordion';
 
 //bootstrap files
-import ThemeProvider from 'react-bootstrap/ThemeProvider'
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle';
 function Home() {
