@@ -1,5 +1,5 @@
 import React from 'react'
-import Jewellery from '../../view/Jewallary/Jewellery';
+// import Jewellery from '../../view/Jewallary/Jewellery';
 import { useState } from 'react';
 //bootstarp files
 import 'bootstrap/dist/css/bootstrap.min.css';
