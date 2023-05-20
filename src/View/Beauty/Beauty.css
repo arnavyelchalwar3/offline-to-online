@@ -1,0 +1,47 @@
+.card-container{
+    height:700px;
+    width: 55%;
+    padding: 10px;
+    background:linear-gradient(  rgb(187, 236, 187),skyblue);
+    box-shadow: 0 0 10px rgb(77, 74, 77);
+    margin: 10px auto;
+    border-radius: 30px;
+
+    
+}
+.shop-name{
+    text-align:center ;
+    color:black;
+    padding-top: 20px;
+}
+.frist-img{
+    height:200px;
+    position: auto;
+    }
+.second-img{
+    width:30%;
+    margin-top:90px ;
+    margin-right: 30px;
+    background-color: aliceblue;
+    height: 700px;
+   
+    
+}
+.address{
+    text-align: center;
+    font-size:larger;
+}
+.info{
+    text-align: right;
+}
+.parent{
+    display:flex;
+    background-color: blueviolet;
+    justify-content:baseline; 
+}
+.text-1{
+    font-size: larger;
+    text-align: left;
+    margin-top: 220px;
+    margin-right: 300px;
+}

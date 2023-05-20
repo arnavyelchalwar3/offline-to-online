@@ -1,21 +1,18 @@
 .div-main{
     position: relative;
 
-    margin: 50px;
+    margin:20px;
 }
 .main-container{
-    margin-top: 25px;
+    margin-top: 5px;
     margin-left: 330px;
-    
 }
-
 .img{
     border: solid rgb(216, 191, 219);
     height: 600px;
     width: 600px;
     border-radius: 2px;
 }
-
 .main-heading{
     /* padding-top: 100px;
     position: absolute; */

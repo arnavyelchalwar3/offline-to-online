@@ -40,6 +40,10 @@
     
   }
   .footer-link:hover{
-    border-bottom: 3px solid white;
-    transition: 0.09s;
+    font-size: 20px;
+    background-color: rgba(245, 245, 245, 0.192);
+    color: whitesmoke;
+    padding: 5px;
+    border-radius: 15px;
+    transition: 0.5s;
   }
