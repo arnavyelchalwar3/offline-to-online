@@ -48,8 +48,8 @@
     color: white;
     font-size: larger;
     text-align: right;
-    margin-top: 100px;
-    margin-right: 15px;
+    margin-top: 70px;
+    margin-right: 5px;
 }
 
 
@@ -74,5 +74,5 @@
    }
    .parent-container{
       display: flex;
-     width: 50%;
+   
    }
