@@ -15,10 +15,10 @@ function Footer() {
    <h1>OFFLINE TO ONLINE</h1>
    </div>
    <div className='nav-cont'>
-   <a href='./Form.js' className='footer-link'>Form</a>
-   <a href='./Form.js' className='footer-link'>Form</a>
-   <a href='./Form.js' className='footer-link'>Form</a>
-   <a href='./Form.js' className='footer-link'>Form</a>
+   <a href='./Form.js' className='footer-link'>Home</a>
+   <a href='./Form.js' className='footer-link'>Register</a>
+   <a href='./Form.js' className='footer-link'>Contact</a>
+   <a href='./Form.js' className='footer-link'>About us</a>
 
    </div>
    <div className='footer-logo-cont'>

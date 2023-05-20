@@ -1,19 +1,17 @@
 import React from 'react'
 import Navbar from '../../components/Navbar/Navbar'
-
 //images import
 import ring from './png2.png'
 import gold from './png4.png'
 import girl from './png1.png'
 import './jewellery.css'
-function Jewellery() {
+function Jewellery(props) {
   return (
   
     <>
-    <Navbar/>
     <div className='container-xl poster-container bg-dark'>
-  <h1 className='shop-name'>name of the shop</h1>
-                  <p className='blockquote-footer dis-sty'>discription about shop</p>
+  <h1 className='shop-name'>{props.shopname}</h1>
+                  <p className='blockquote-footer dis-sty'>{props.owner}</p>
    <div className='part-cont'>
           <div className='part-1'>
       <img src={ring} className='png-sty'/>
@@ -34,7 +32,7 @@ function Jewellery() {
    <div className='contact-cont'>
    <span className='contact'>Mobile Number</span><i class="bi bi-telephone"></i>:-8975434272<br/>
    <span className='contact'>Alt Mobile Number</span>  <i class="bi bi-telephone"></i>:-9823000990<br/>
-   <span className='contact'>Mail</span>  <i class="bi bi-envelope"></i>:- pratikbhoyar2002@gmail.com <br/>
+   <span className='contact'>Mail</span>  <i class="bi bi-envelope"></i>:-{props.email}<br/>
    </div>
   </div>
  
