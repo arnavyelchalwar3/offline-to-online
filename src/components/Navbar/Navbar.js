@@ -19,7 +19,7 @@ function Navbar() {
       <div class="offcanvas-body">
         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
           <li class="nav-item">
-            <Link class="nav-link active" aria-current="page" to="./components\Home\Home.js">Home</Link>
+            <Link class="nav-link active" aria-current="page" to={"/"}>Home</Link>
           </li>
           <li class="nav-item">
             <Link class="nav-link" to="#">Link</Link>
@@ -29,13 +29,13 @@ function Navbar() {
               More Pages
             </Link>
             <ul class="dropdown-menu">
-              <li><Link class="dropdown-item" to='./Form\Form.js'>Register</Link></li>
-              <li><a class="dropdown-item" href="#"> <i class="bi bi-person-circle"></i>login</a></li>
+              <li><Link class="dropdown-item" to={"/Form"}>Register</Link></li>
+              <li><Link class="dropdown-item" to={"/LoginPage"}> <i class="bi bi-person-circle"></i>login</Link></li>
               <li>
                 <hr class="dropdown-divider"/>
               </li>
-              <li><Link class="dropdown-item" href="#">our Team</Link></li>
-              <li><Link class="dropdown-item" href="#">contact us</Link></li>
+              <li><Link class="dropdown-item" to={"/Aboutus"}>our Team</Link></li>
+              <li><Link class="dropdown-item" to={"/Contact"}>contact us</Link></li>
             </ul>
           </li>
         </ul>

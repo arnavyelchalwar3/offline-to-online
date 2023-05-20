@@ -1,10 +1,12 @@
 import React from 'react'
 import Navbar from '../Navbar/Navbar'
+import { Link } from 'react-router-dom';
 import "./Home.css"
 import Footer from '../Footer/Footer';
 import CarouselFade from './Carousel';
 import Cards from './Cards';
 import Accordions from './Accordion';
+
 
 //bootstrap files
 
@@ -20,7 +22,7 @@ function Home() {
    <section id="header" class="jumbotron text-center">
      <h1 class="display-3">About Site</h1>
      <p class="lead">Digital Bussiness Profitable Bussiness</p>
-     <a href="" class="btn btn-success">Register</a>
+     <Link to={"/Form"} class="btn btn-success]">Register</Link>
     </section><br/>
     <Cards/>
     <Accordions/>
