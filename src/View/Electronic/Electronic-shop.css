@@ -1,11 +1,12 @@
 .div-main{
     position: relative;
-
-    margin:20px;
+    background-color:rgb(248, 238, 100);
+    margin: 10px;
 }
 .main-container{
     margin-top: 5px;
-    margin-left: 330px;
+    
+    margin-left: 350px;
 }
 .img{
     border: solid rgb(216, 191, 219);

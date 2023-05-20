@@ -5,11 +5,11 @@ import Navbar from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
 import Jewellery from './View/Jewallary/Jewellery'
 import Electronic from './View/Electronic/Electronic-shop';
-import LoginPage from './components/Login Page/Login-page';
+import LoginPage from './View/Login Page/Login-page';
 function App() {
   return (
     <>
-       <Home/> 
+      <Jewellery/>
     </>
   );
 }
