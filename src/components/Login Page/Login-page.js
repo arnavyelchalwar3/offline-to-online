@@ -1,6 +1,6 @@
 
-import Footer from "../../components/Footer/Footer";
-import Navbar from "../../components/Navbar/Navbar";
+import Footer from "../Footer/Footer";
+import Navbar from "../Navbar/Navbar";
 import LoginImg from "./draw2.webp";
 import "./Login-page.css"
 function LoginPage(){

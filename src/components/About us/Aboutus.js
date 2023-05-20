@@ -9,7 +9,7 @@ import KIRTI from './kirti.jpg'
 //import KALASH from './.jpg'//
 import RAHUL from './rahul.jpeg'
 import GANESH from './ganesh.jpg'
-import ARNAV from './arnav.jpg'
+import ARNAV from './arynav.jpg'
 
 
 function Aboutus() {
